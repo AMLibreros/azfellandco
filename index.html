@@ -8,20 +8,35 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <html>
-<head>
-<style>
- 
-</style>
-</head>
-<body>
+  <h1 id='nameHolder'>Hello Strange Traveler!</h1>
+
+<button id="button1" onclick="myFunction()">Insert Name</button>
+<script> function myFunction0() {
+  alert("Hello");
+}
+
+function myFunction() {
+
+
+  var name = prompt("What is your name?");
+
+  document.querySelector("h1").textContent = "Welcome to Gladios " + name;
+
+  console.log("hello " + name);
+  return name;
+}
+
+</script>
+
   <!DOCTYPE html>
   <html>
-  <head>
+  <head>  
+
   <style>
     .image-button {
       background: transparent;
       position: fixed;
-      top: 10%;
+      top: 5%;
       transform: translateY(20%);
       transform: translateX(10%);
       border: none;
@@ -29,22 +44,26 @@
 
     }
     .image-button:hover {
-    filter: grayscale(100%); /* Convert the image to grayscale when hovered */
+    filter: grayscale(100%); 
   }
   
     .image-button img {
-      width: 200px; /* Adjust the width to fit your image dimensions */
-      height: auto; /* Maintain aspect ratio */
+      width: 200px; 
+      height: auto; 
     }
-    
+  
   </style>
   </head>
   <body>
   
-  <button class="image-button">
-    <img src="file:///Users/Guest/Desktop/S08/image/spade4.png" alt="Spade Image">
+  <button id="bigspade1"
+  class="image-button"> 
+    <img src="image/spade4.png" alt="Spade Image"> 
+   
   </button>
-  
+  <button id="bigspade" 
+  onclick="window.location.href='///Users/Guest/Desktop/S08/page3.html';">explore</button>
+    
   </body>
   </html>
   
@@ -60,15 +79,14 @@
   body {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center horizontally */
-    justify-content: center; /* Center vertically */
-    height: 100vh; /* Ensure the entire viewport height is covered */
-    margin: 0; /* Remove default margin */
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+    margin: 0; 
   }
 
-
   h1 {
-    text-align: center; /* Center text within the h1 element */
+    text-align: center; 
   }
   
   h1  {
@@ -86,7 +104,7 @@
 </head>
 <body>
   <ul>
-    <!-- Add list items if needed -->
+
   </ul>
   <h1>MISSING REPORT</h1>
   <h1>CASE 0000</h1>
@@ -97,58 +115,18 @@
 <html>
 <head>
 <style>
-  .flip-button {
-    display: inline-block;
-    perspective: 1000px; /* Set the 3D perspective */
-    transition: transform 0.3s; /* Add a smooth transition effect */
-  }
-
-  .flip-button:hover {
-    transform: rotateX(180deg); /* Flip the button upside down when hovered */
-  }
-
-  .flip-button img {
-    width: 200px; /* Adjust the width to fit your image dimensions */
-    height: auto; /* Maintain aspect ratio */
-  }
+ 
 </style>
 </head>
-<body>
 
-<button class="flip-button">
-<html>
-<head>
-<style>
-  .flip-button {
-    display: inline-block;
-    perspective: 1000px; /* Set the 3D perspective */
-    transition: transform 0.3s; /* Add a smooth transition effect */
-  }
 
-  .flip-button:hover {
-    transform: rotateX(180deg); /* Flip the button upside down when hovered */
-  }
-
-  .flip-button img {
-    width: 200px; /* Adjust the width to fit your image dimensions */
-    height: auto; /* Maintain aspect ratio */
-  }
-</style>
-</head>
-<body>
-
-<button class="flip-button">
-  <img src="file:///Users/Guest/Desktop/S08/image/spade7.png" alt="Spade Image">
 </button>
 
-</body>
+
 </button>
 
 </body>
 </html>
-
-
-
 <h3 style="color: #ffffff;">Location:West of Gladios</h3>
 <image><div class="bone1.gif"></div></image>
 <image><div class="spade1.png"></div></image>
