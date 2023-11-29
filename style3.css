@@ -1,0 +1,24 @@
+body {
+	height: 90vh;
+	background-color: black;
+}
+
+.distort {
+	transition: all 400ms;
+}
+
+.new:hover .distort {
+	transform: translateX(0) !important;
+}
+
+.new, .distort {
+	color: darkred;
+	position: relative;
+	top: calc(50vh - 120px);
+  font-family: arial black, sans-serif;
+	font-size: 100px;
+	text-align: center;
+  
+  
+
+}
